@@ -1,0 +1,15 @@
+{
+    "name": "Local",
+    "description": "Local environment",
+    "port": 3000,
+    "db": {
+        "host": "localhost",
+        "db": "5d973650ccc7eda0cc31cee5495ced72",
+        "user": "admin",
+        "password": "admin",
+        "port": 27017,
+        "connectionSting": "mongodb://admin:admin@localhost:27017"
+    },
+    "jwtSecretKey": "3f54ff2db731b58c9306da76e146b0663960f1dc9496e94d3b107787d5cab8d7",
+    "apiMasterKey": "e969d0f1deaa2badb76235de54e97c32a67a74601bbaacacb2d0547db8704ae9"
+}
