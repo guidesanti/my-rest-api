@@ -1,20 +1,23 @@
 {
-    "file": {
-        "level": "info",
-        "dirname": "./logs",
-        "filename": "app.log",
-        "handleExceptions": true,
-        "json": true,
-        "maxsize": 5242880,
-        "maxFiles": 5,
-        "colorize": false,
-        "timestamp": true
-    },    
     "console": {
         "level": "silly",
-        "handleExceptions": true,
-        "json": false,
-        "colorize": true,
-        "timestamp": true
+        "handleExceptions": true
+    },
+    "error": {
+        "level": "error",
+        "dirname": "./logs",
+        "filename": "error.log",
+        "maxsize": 5242880
+    },
+    "full": {
+        "level": "silly",
+        "dirname": "./logs",
+        "filename": "full.log",
+        "maxsize": 5242880
+    },
+    "exception": {
+        "dirname": "./logs",
+        "filename": "exceptions.log",
+        "handleExceptions": true
     }
 }

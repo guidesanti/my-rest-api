@@ -3,10 +3,10 @@
     "description": "Local environment",
     "port": 3000,
     "db": {
-        "host": "localhost",
+        "host": "127.0.0.1",
         "db": "5d973650ccc7eda0cc31cee5495ced72",
-        "user": "admin",
-        "password": "admin",
+        "user": "5d973650ccc7eda0cc31cee5495ced72",
+        "password": "My!123456",
         "port": 27017,
         "connectionSting": "mongodb://admin:admin@localhost:27017"
     },

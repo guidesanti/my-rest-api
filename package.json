@@ -10,8 +10,8 @@
     "url": "https://github.com/guidesanti/my-rest-api"
   },
   "scripts": {
-    "start": "node ./bin/www",
-    "nodemon": "nodemon ./bin/www"
+    "start": "node server.js",
+    "nodemon": "nodemon server.js"
   },
   "devDependencies": {
     "debug": "~2.6.9"

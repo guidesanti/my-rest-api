@@ -3,14 +3,15 @@
 /**
  * Module dependencies.
  */
-var app = require('../app');
+var appRoot = require('app-root-path');
+var app = require(appRoot + '/app');
 var debug = require('debug')('my-rest-api:server');
 var http = require('http');
 
 /**
  * Get the environment configuration.
  */
-var config = require('../config/config.js').getAppConfig();
+var config = require(appRoot + '/config/config').getAppConfig();
 
 /**
  * Get port from environment and store in Express.
