@@ -15,8 +15,10 @@ var AuthService = require(appRoot + '/services/auth-service');
 
 // Models
 var User = require(appRoot + '/models/user');
-var Response = require(appRoot + '/models/response');
-var Error = require(appRoot + '/models/error');
+
+// Transport
+var Response = require(appRoot + '/transport/response');
+var Error = require(appRoot + '/transport/error');
 
 router.use(bodyParser.urlencoded({ extended: false }));
 router.use(bodyParser.json());

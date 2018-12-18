@@ -6,9 +6,9 @@ var jwt = require('jsonwebtoken');
 // Config
 var config = require(appRoot + '/config/config').getAppConfig();
 
-// Models
-var Response = require(appRoot + '/models/response');
-var Error = require(appRoot + '/models/error');
+// Transport
+var Response = require(appRoot + '/transport/response');
+var Error = require(appRoot + '/transport/error');
 
 var authService = {
 
